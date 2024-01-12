@@ -30,7 +30,7 @@
 
   &:hover{
   
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   opacity: 0.2;
   }
 }
 .navbar__wrap-link-up {
@@ -41,7 +41,7 @@
   @include transition();
 
   &:hover{
-    box-shadow: rgba(5, 12, 17, 0.3) 0px 1px 2px 0px, rgba(11, 16, 20, 0.652) 0px 2px 6px 2px;
+   opacity: 0.5;
   }
 }
 .navbar__wrap-icon {
@@ -51,10 +51,9 @@
 
   &:hover{
 
-    box-shadow: rgba(5, 12, 17, 0.3) 0px 1px 2px 0px, rgba(11, 16, 20, 0.652) 0px 2px 6px 2px;
+    opacity: 0,7;
   }
 }
-// Tablet style start
 @media only screen and (max-width:914px){
   
   .navbar__wrap {
@@ -70,4 +69,3 @@
     display: none;
   }
 }
-// Tablet style end

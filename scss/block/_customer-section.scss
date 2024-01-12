@@ -61,8 +61,6 @@
   }
   .customer__img{
     margin-bottom: 50px;
-    // width: 480px;
-    // height: 440px;
   }
   .customer__list{
     width: 100%;
@@ -86,7 +84,6 @@
   }
 }
 // Tablet style end
-// Mobile style start 
 @media only screen and (max-width:579px){
   .customer__content {
     padding: 0;
@@ -145,4 +142,3 @@
     padding: 0;
   }
 }
-// Mobile style end

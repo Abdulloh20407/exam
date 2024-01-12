@@ -25,17 +25,18 @@
   margin-bottom: 45px;
 }
 .hero__links{
- display: flex;
- gap: 30px
+  display: flex;
+  gap: 30px
 }
 .hero__link {
   @include link();
   padding: 15px 41px 14px;
   display: inline-block;
   @include transition();
-
+  
   &:hover{
-    box-shadow: rgba(5, 12, 17, 0.3) 0px 1px 2px 0px, rgba(11, 16, 20, 0.652) 0px 2px 6px 2px;
+    
+    opacity: 0.2;
   }
 }
 .play-btn {
@@ -46,12 +47,14 @@
   cursor: pointer;
   @include transition();
   &:hover{
-    opacity: 0.7;
+    opacity: 0.3;
+    
+    
   }
 }
 
 .play-btn__img {
-
+  
   display: inline-block;
   margin-right: 8px;
 }
@@ -101,8 +104,6 @@
     width: 100%;
   }
 }
-// Tablet style end
-// Mobile style start 
 @media only screen and (max-width:496px){
   .hero{
     padding: 550px 0 83px 0;
@@ -121,8 +122,8 @@
   }
   .hero__links{
     width: 100%;
-  justify-content: space-between;
-   }
+    justify-content: space-between;
+  }
 }
 @media only screen and (max-width:418px){
   .hero__link {
@@ -168,10 +169,10 @@
   }
 }
 @media only screen and (max-width:349px){
-
+  
 }
 .play-btn__img {
   @include transition();
   margin-right: 0px;
 }
-// Mobile style end
+// Mobile style end here

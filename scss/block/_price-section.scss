@@ -102,7 +102,7 @@
  transition: all 0.4s;
 
  &:hover{
-  box-shadow: rgba(0, 7, 12, 0.9) 0px 1px 2px 0px, rgba(1, 14, 27, 0.952) 0px 2px 6px 2px;
+  opacity: 0,5;
  }
 }
 .price__item:hover .price__link{
@@ -113,7 +113,7 @@
 // Tablet stytle start
 @media (max-width:1035px){
   .price__item {
-    width: 30%;
+    width: 33%;
   }
 }
 @media (max-width:945px){
@@ -163,4 +163,3 @@
     width: 80%;
   }
 }
-// Tablet stytle end
